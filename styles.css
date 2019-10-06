@@ -87,140 +87,141 @@ ul.dots li span {
     margin: 27%;
 }
 html {
-position: relative;
-min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
-background-color: #333;
-overflow: hidden;
+  background-color: #333;
+  overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-float: left;
-display: block;
-color: #aaaaaa;
-text-align: center;
-padding: 14px 18px;
-text-decoration: none;
-font-size: 17px;
-border-right: 20px solid transparent;
+  float: left;
+  display: block;
+  color: #aaaaaa;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 17px;
+  border-right: 20px solid transparent;
 }
 
 .topnav a:hover {
-border-right: 5.5px solid rgb(0, 192, 226);
+  border-right: 5.5px solid rgb(0, 192, 226);
 }
 
 .topnav a.active {
-border-bottom: 5.5px solid rgb(0, 192, 226);
+  border-bottom: 5.5px solid rgb(0, 192, 226);
 }
 .mod{
-padding-top: 20px;
-padding-bottom: 20px;
-border-radius: 20px;
-padding-left: 10px;
-padding-right: 10px;
-margin-right: 140px;
-background-color: rgb(243, 243, 243);    /* Light gray */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 140px;
+  background-color: rgb(243, 243, 243);    /* Light gray */
 }
 
 .button {
--webkit-transition-duration: 0.4s; /* Safari */
-transition-duration: 0.4s;
-background-color: transparent;
-color: black;
-border: 1px solid rgb(28, 201, 186);
-border-radius: 4px;
-padding: 6px 24px ;
-margin-right: 770px;
-color: rgb(28, 201, 186);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  background-color: transparent;
+  color: black;
+  border: 1px solid rgb(28, 201, 186);
+  border-radius: 4px;
+  padding: 6px 24px ;
+  margin-right: 770px;
+  color: rgb(28, 201, 186);
 }
 
 .button:hover {
-background-color: rgb(28, 201, 186);
-color: white;
+  background-color: rgb(28, 201, 186);
+  color: white;
 }
 
 .boxes {
-transition: box-shadow .3s;
-width: 325px; 
-float:left; 
-height:286px; 
-background:white; 
-margin:10px;
--webkit-box-shadow: 10px 5px 5px 5px #999;
--moz-box-shadow:    8px 0 0 10px #999;
-box-shadow: 5px 5px 5px -7px #999;
-border-radius: 6px; 
+  transition: box-shadow .3s;
+  width: 325px; 
+  float:left; 
+  height:286px; 
+  background:white; 
+  margin:10px;
+  -webkit-box-shadow: 10px 5px 5px 5px #999;
+  -moz-box-shadow:    8px 0 0 10px #999;
+  box-shadow: 5px 5px 5px -7px #999;
+  border-radius: 6px;
+  margin-top: 40px; 
 }
 .boxes:hover {
-box-shadow: 0 0 11px rgba(33,33,33,.2); 
-background-color: rgb(241, 241, 241);
-color: black;
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  background-color: rgb(241, 241, 241);
+  color: black;
 }
 .boxes img{
-float: left;
+  float: left;
 }
 img#round {
-border-radius: 50%;
-width:65px;
-height:65px;
-margin-top: 30px;
-margin-left: 30px; 
-border-width:1px;
-border-style: solid;
-border-color: #999;
+  border-radius: 50%;
+  width:65px;
+  height:65px;
+  margin-top: 30px; 
+  margin-left: 30px; 
+  border-width:1px;
+  border-style: solid;
+  border-color: #999;
 }
 p#inbox{
-margin: 70px 20px 20px 40px;
-color: gray;
+  margin: 70px 20px 20px 40px;
+  color: gray;
 }
 
 .boxes h2 , h4 {
-position: relative;
-top: 37px;
-left: 20px;
+  position: relative;
+  top: 37px;
+  left: 20px;
 }
 
 div#boxbutton{
--webkit-transition-duration: 0.4s; /* Safari */
-transition-duration: 0.4s;
-background-color: transparent;
-color: black;
-border: 1px solid rgb(28, 201, 186);
-border-radius: 4px;
-padding: 6px 24px ;
-margin-left: 40px;
-margin-right: 165px;
-margin-top: 25px;
-color: rgb(28, 201, 186);
-text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  background-color: transparent;
+  color: black;
+  border: 1px solid rgb(28, 201, 186);
+  border-radius: 4px;
+  padding: 6px 24px ;
+  margin-left: 40px;
+  margin-right: 165px;
+  margin-top: 25px;
+  color: rgb(28, 201, 186);
+  text-align: center;
 }
 div#boxbutton:hover{
-box-shadow: 0 0 11px rgba(33,33,33,.2); 
-background-color: rgb(28, 201, 186);
-color: white;
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  background-color: rgb(28, 201, 186);
+  color: white;
 }
 
 div#credits{
-padding-top: 100px;
-padding-bottom: 60px;
-border-radius: 20px;
-padding-left: 10px;
-padding-right: 10px;
-margin-top:1300px;
-margin-right: 140px;
-margin-bottom: -10px;
-background-color: transparent;
-text-align: center;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top:1300px;
+  margin-right: 140px;
+  margin-bottom: -10px;
+  background-color: transparent;
+  text-align: center;
 }
 li#cred{
-padding: 10px;
+  padding: 10px;
 }
 p#creds{
-padding-top: 20px;
-font-size: 16px;
-color: gray;
+  padding-top: 20px;
+  font-size: 16px;
+  color: gray;
 }
